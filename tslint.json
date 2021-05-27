@@ -1,8 +1,12 @@
 {
     "extends": "tslint:latest",
+    "linterOptions": {
+        "exclude": [
+          "node_modules/**"
+        ]
+    },
     "rules": {
         "no-unnecessary-type-assertion": true,
-
         "array-type": [true, "array"],
         "ban-types": {
             "options": [
